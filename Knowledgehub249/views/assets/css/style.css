@@ -1,0 +1,191 @@
+/* RTL-specific styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+    direction: rtl;
+}
+
+/* Custom Navbar */
+.navbar-custom {
+    background-color: #7952b3;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Button Styling */
+.btn-primary {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+.btn-primary:hover {
+    background-color: #614092;
+    border-color: #614092;
+}
+
+.btn-outline-primary {
+    color: #7952b3;
+    border-color: #7952b3;
+}
+
+.btn-outline-primary:hover {
+    background-color: #7952b3;
+    border-color: #7952b3;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    border: none;
+}
+
+.card-header {
+    border-radius: 10px 10px 0 0 !important;
+    font-weight: 500;
+}
+
+/* Question Card */
+.question-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Tag Styling */
+.tag {
+    background-color: #e9ecef;
+    color: #495057;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 50px;
+    margin-left: 0.5rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.tag:hover {
+    background-color: #dee2e6;
+    color: #212529;
+}
+
+/* Reputation Badge */
+.reputation {
+    color: #28a745;
+    font-weight: bold;
+}
+
+/* Answer Count */
+.answer-count {
+    background-color: #28a745;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+/* Vote Buttons */
+.vote-buttons button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: #6c757d;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vote-buttons button:hover {
+    color: #7952b3;
+}
+
+.vote-count {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: #495057;
+}
+
+/* Custom Admin Dashboard Cards */
+.border-left-primary {
+    border-left: 0.25rem solid #4e73df !important;
+}
+
+.border-left-success {
+    border-left: 0.25rem solid #1cc88a !important;
+}
+
+.border-left-info {
+    border-left: 0.25rem solid #36b9cc !important;
+}
+
+.border-left-warning {
+    border-left: 0.25rem solid #f6c23e !important;
+}
+
+/* Badge Styling */
+.badge-item {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #343a40;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: underline;
+}
+
+.social-icons a {
+    width: 36px;
+    height: 36px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
